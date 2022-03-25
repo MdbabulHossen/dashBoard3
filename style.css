@@ -738,7 +738,7 @@ label #close {
   font-family: 'Inter';
 font-style: normal;
 font-weight: 600;
-font-size: 16px;
+font-size: 15px;
 
  color: rgba(0, 0, 0, 0.877);
 text-align: center;
@@ -869,7 +869,69 @@ color: #000000;
 
 
 
+/* dashboard pagianton */
+.dashboard_pagination{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 50px;
+}
 
+.dashboard_pagination p{
+ 
+  color: black;
+  
+font-family: 'Inter';
+
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+}
+
+.pagination_item li{
+  display: inline;
+  list-style-type: none;
+  margin: 5px;
+  color: #000000;
+}
+
+.pagination_item li a{
+  text-decoration: none;
+  color:#000000;
+  border-radius: 10%;
+  padding: 5px 10px;
+  transition: all .3s ease-in-out;
+}
+
+/* .pagination_item li a:first-child{
+  background: #5160AC;
+  color: white;
+
+} */
+.pagination_item li a:hover{
+  background: #5160AC;
+  color: white;
+
+}
+
+
+
+.dashboard_pagination select{
+  font-size: 15px;
+  font-family: 'Inter';
+  padding: 10px;
+  background-color: rgb(245, 245, 245);
+  border: none;
+  border-radius: 10px;
+  margin-top: -20px;
+ 
+}
+
+
+
+
+
+/* dashboard pagianton */
 
 
 
