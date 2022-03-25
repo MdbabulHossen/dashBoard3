@@ -734,13 +734,18 @@ label #close {
 
 
 
-
+.dashboard_head{
+  background: rgba(255, 255, 255, 1);
+  position: relative;
+  margin-top: 110px;
+ 
+}
 
 .dashboard{
   background: rgba(255, 255, 255, 1);
   position: relative;
   
-  margin-top: 110px;
+
 }
 
 
