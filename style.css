@@ -713,6 +713,19 @@ label #close {
   color: rgb(151, 149, 145);
   cursor: pointer;
 }
+
+
+@media screen and (max-width:800px) {
+  .trending_wrapper{
+    left: 10px;
+  }
+  .trending_wrapper button{
+    padding: 9px 9px;
+  }
+  .trending h3{
+    margin-left: -20px;
+  }
+}
 /* heder rectangle end */
 
 
@@ -726,7 +739,7 @@ label #close {
 .dashboard{
   background: rgba(255, 255, 255, 1);
   position: relative;
-  height: 1200px;
+  
   margin-top: 110px;
 }
 
@@ -774,7 +787,18 @@ color: #000000;
 }
 
 
-
+@media screen and (max-width:800px) {
+  .dashboard table tbody tr th i{
+    margin-left: 0px;
+    
+    display: none;
+  }
+  .dashboard table tbody tr th img{
+    margin-left: 2px;
+    width: 8px;
+  }
+  
+}
 
 
 
@@ -875,6 +899,7 @@ color: #000000;
   justify-content: space-between;
   padding: 10px;
   margin-top: 50px;
+ 
 }
 
 .dashboard_pagination p{
@@ -928,7 +953,27 @@ line-height: 24px;
 }
 
 
+@media screen and (max-width:800px) {
+  .dashboard_pagination p{
+    display: none;
 
+  }
+  .dashboard_pagination select{
+    display: none;
+  }
+  .dashboard_pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .pagination_item li{
+    margin-left: 0px;
+   
+  }
+  .pagination_item li a{
+    padding: 4px;
+  }
+}
 
 
 /* dashboard pagianton */
