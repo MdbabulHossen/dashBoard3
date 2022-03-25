@@ -903,7 +903,9 @@ color: #000000;
   display: flex;
   justify-content: space-between;
   padding: 10px;
-  margin-top: 50px;
+  margin-left: 60px;
+  margin-right: 60px;
+  
  
 }
 
@@ -947,13 +949,13 @@ line-height: 24px;
 
 
 .dashboard_pagination select{
-  font-size: 15px;
+ 
   font-family: 'Inter';
-  padding: 10px;
+ padding: 8px;
   background-color: rgb(245, 245, 245);
   border: none;
   border-radius: 10px;
-  margin-top: -20px;
+ 
  
 }
 
@@ -970,6 +972,8 @@ line-height: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0px;
+    width: 100%;
   }
   .pagination_item li{
     margin-left: 0px;
