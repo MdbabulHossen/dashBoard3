@@ -348,8 +348,7 @@ input:checked + .slider:before {
   background: white;
   position: fixed;
   margin-bottom: 15px;
-  border-bottom: 1px solid rgb(153, 150, 150);
-  margin-left: 5px;
+  width: 224px;
 }
 
 .sidebar_logo img {
@@ -360,16 +359,17 @@ input:checked + .slider:before {
 
 .sidebar_ul li {
   position: relative;
+  margin-left: 10px;
 }
 
 .sidebar_ul li .sidebar_black_icons {
-  margin-left: 10px;
+ 
   margin-right: 10px;
 }
 
 .sidebar_white_icons {
   display: none;
-  margin-left: 10px;
+ 
   margin-right: 10px;
 }
 
@@ -473,6 +473,8 @@ label #close {
 
 .sidebar li:hover {
   background: #5160ac;
+  border-radius: 10px;
+  margin-left: 10px;
 }
 
 
