@@ -203,47 +203,39 @@
     <!-- dashboard section and charts start-->
     <div class="main-body">
       <div class="containerr" style="margin: 40px;">
-        <!-- table parts -->
-        <div class="dashboard_head">
-          <!-- heaader rectangle start  -->
-  <div class="rectangle_style">
-    <div class="rectangle_style_wrapper">
-      <div class="rectangle_img_wrapper">
-        <img src="images/group.png" alt="">
-        <img src="images/group.png" alt="">
-        <img src="images/group.png" alt="">
-        <img src="images/group.png" alt="">
-        <img src="images/group.png" alt="">
-        <img src="images/group.png" alt="">
-        <img src="images/group.png" alt="">
-      </div>     
-    </div>
-    <div class="rectangle_select_item">
-      <select>
-        <option value="crypto">crypto</option>
-        <option value="crypto">crypto</option>
-        <option value="crypto">crypto</option>
-        <option value="crypto">crypto</option>
-      </select>
-      <select class="my-2" style="color: black;">
-        <option value="50">50</option>
-        <option value="50">50</option>
-        <option value="50">50</option>
-        <option value="50">50</option>
-      </select>
-    </div>
-
-    <div class="trending">
-      <h3>Trending <i class="fa fa-fire"></i></h3>
-    </div>
-    <div class="trending_wrapper">
-       <button>All Cryptos</button>
-       <button>Catgegory</button>
-    </div>
-  </div>
-<!-- heaader rectangle end  -->
-        </div>
+     
+     
+        <div class="restangle_head">
+   
+         <div class="restangle_heading">
+          <h3>Trending  <i class="fa-solid fa-fire" ></i><h3>
+            <select name="cryptas" id="">
+              <option value="50">Crypto</option>
+              <option value="50">50</option>
+            </select>
+         </div>
       
+          
+          <button>All Cryptos</button>
+          <button style="color:#808A9D ;background-color: #F1F6FE;">Catgegory</button>
+      
+      
+          <select class="my-2">
+            <option value="50">50</option>
+            <option value="50">50</option>
+            <option value="50">50</option>
+            <option value="50">50</option>
+          </select>
+      
+        </div>
+     
+     
+     
+     
+     
+     
+        <!-- table parts -->
+     
           <div class="dashboard">
     
             <table class="table borderless mytable">
@@ -266,6 +258,8 @@
                   <th>%change Mentions</th>
                   <th>Sentiment</th>
                   <th>Quick Chart</th>
+                  <th></th>
+                  <th></th>
                 </tr>
               </thead>
 
@@ -305,6 +299,7 @@
                   <td>
                     <div id="line_chart_green"></div>
                   </td>
+                  <td><i class="fa-solid fa-ellipsis-vertical"></i></td>
                 </tr>
 
 
@@ -335,6 +330,7 @@
                   <td>
                     <div id="line_chart"></div>
                   </td>
+                  <td><i class="fa-solid fa-ellipsis-vertical"></i></td>
                 </tr>
 
 
@@ -366,6 +362,7 @@
                   <td>
                     <div id="line_chart_green2"></div>
                   </td>
+                  <td><i class="fa-solid fa-ellipsis-vertical"></i></td>
                 </tr>
 
 
@@ -396,7 +393,9 @@
                   </td>
                   <td>
                     <div id="line_chart_green3"></div>
+                    
                   </td>
+                  <td><i class="fa-solid fa-ellipsis-vertical"></i></td>
                 </tr>
 
 
@@ -427,6 +426,7 @@
                   <td>
                     <div id="line_chart_green4"></div>
                   </td>
+                  <td><i class="fa-solid fa-ellipsis-vertical"></i></td>
                 </tr>
 
 
@@ -457,6 +457,7 @@
                   <td>
                     <div id="line_chart2"></div>
                   </td>
+                  <td><i class="fa-solid fa-ellipsis-vertical"></i></td>
                 </tr>
 
 
@@ -487,6 +488,7 @@
                   <td>
                     <div id="line_chart_green5"></div>
                   </td>
+                  <td><i class="fa-solid fa-ellipsis-vertical"></i></td>
                 </tr>
 
 
@@ -518,6 +520,7 @@
                   <td>
                     <div id="line_chart_green6"></div>
                   </td>
+                  <td><i class="fa-solid fa-ellipsis-vertical"></i></td>
                 </tr>
 
 
@@ -548,6 +551,7 @@
                     <!-- table sentiment -->
                   </td>
                   <td> <div id="line_chart3"></div></td>
+                  <td><i class="fa-solid fa-ellipsis-vertical"></i></td>
                 </tr>
 
 
@@ -568,7 +572,7 @@
         <nav>
           <ul class="pagination_item">
             <li><a href="#"><i class="fa fa-angle-left"></i></a></li>
-            <li><a href="#" active>1</a></li>
+            <li><a href="#" class="active" style="color: white;">1</a></li>
             <li><a href="#">2</a></li>
             <li><a href="#">3</a></li>
             <li><a href="#">4</a></li>

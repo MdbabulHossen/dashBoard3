@@ -479,7 +479,7 @@ label #close {
 
 
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1120px) {
   .sidebar {
     left: -500px;
   }
@@ -554,7 +554,7 @@ label #close {
   margin-left: 240px;
   margin-top: 90px;
 }
-@media screen and (max-width:900px) {
+@media screen and (max-width:1120px) {
 
 .main-body{
   margin-left: 0px;
@@ -576,115 +576,69 @@ label #close {
 
 
 
+
 /* heder rectangle start */
 
 
 
-.rectangle_style{
-  position: relative;
+.restangle_head{
+  margin-top: 50px;
+  padding: 15px;
+  background-image: url('images/Noise\ \(1\).png');
+  background-image: linear-gradient(to right,#B5BBD1,#F18380,#FDE9B6);
+ 
+
+
+
 }
 
-.rectangle_img_wrapper{
-  display: flex;
-  min-width: 200px;
-  overflow-x: hidden;
-}
-.rectangle_img_wrapper img{
-  margin-left: -70px;
-  margin-top: -18px;
-  margin-bottom: 20px;
-  width: 100%;
-}
-
-.rectangle_select_item{
-  position: absolute;
-  right: 20px;
-  top: 40px;
-  display: flex;
-  flex-direction:column;
-}
-
-.trending{
-  position: absolute;
-  top: 40px;
-  left: 40px;
-}
-
-.trending h3{
-  color: black;
-  font-weight: 800;
+.restangle_head h3{
+  color:#000000
+  ;
   font-family: 'Roboto';
-  font-size: 20px;
-  margin-top: -20px;
-  
-}
-
-.trending i{
-  color: #FF9A01;
-}
-
-.trending_wrapper{
-  position: absolute;
-  top: 100px;
-  left: 40px;
-  display: flex;
-}
-
-.trending_wrapper button{
-  border: none;
-  outline: none;
-  margin-right: 10px;
-  padding: 8px 20px;
-  background: #5160AC;
-  border-radius: 10px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 18px;
-  color:white;
-  margin-top: -30px;
-  cursor: pointer;
-}
-
-.trending_wrapper button:nth-child(2){
-  background: white;
-  color: #808A9D;
   font-weight: 600;
+  font-size: 20px;
 }
 
 
+.restangle_heading select{
+  position: absolute;
+  margin-top: -35px;
+  border: 1px solid black;
+}
 
+.restangle_heading h3 i{
+  color: 
+  #FF9A01;
+}
 
-.rectangle_select_item select{
-  background-color: rgb(255, 255, 255);
-  outline: none;
-  border-radius: 5px;
-  border: 1px solid #9295A3;
+.restangle_head button{
+  background-color: #5160AC;
+  color: white;
+  padding: 8px 18px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 7px;
   font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-  padding: 5px 15px;
-  color: rgb(151, 149, 145);
-  cursor: pointer;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+
+.restangle_head select{
+  background-color: #EFF2F5;
+  color:black;
+  padding: 9px;
+  font-size: 13px;
+  border: none;
+  border-radius: 6px;
+  position:absolute;
   right: 50px;
+  cursor: pointer;
+ 
 }
 
 
-@media screen and (max-width:800px) {
-  .trending_wrapper{
-    left: 10px;
-  }
-  .trending_wrapper button{
-    padding: 9px 9px;
-  }
-  .trending h3{
-    margin-left: -20px;
-  }
-}
-/* heder rectangle end */
 
 
 
@@ -833,10 +787,11 @@ color: #000000;
 
 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:1364px) {
   .dashboard {
     height: 600px;
     overflow: scroll;
+    width: 100%;
   }
   .dashboard table thead tr th{
     font-size: 13px;
@@ -847,6 +802,9 @@ color: #000000;
   }
   .dashboard table tbody tr td{
     font-size: 10px;
+  }
+  .dashboard table{
+    width: 100%;
   }
 }
 
@@ -893,11 +851,11 @@ line-height: 24px;
   transition: all .3s ease-in-out;
 }
 
-/* .pagination_item li a:first-child{
+
+.active{
   background: #5160AC;
   color: white;
-
-} */
+}
 .pagination_item li a:hover{
   background: #5160AC;
   color: white;
@@ -1183,3 +1141,35 @@ line-height: 24px;
 
 
 /* dashboard charts styles end */
+
+
+
+
+
+/* for respnsive */
+
+
+@media screen and (max-width:3200px) and (min-width:2200px) {
+  
+
+.green_sentiment{
+  width: 65px;
+}
+
+.red_sentiment {
+ 
+  width: 66px;
+}
+
+
+.gray_parsent {
+  width: 25px;
+}
+
+
+
+
+}
+
+
+
